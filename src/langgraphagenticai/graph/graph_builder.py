@@ -12,9 +12,7 @@ class GraphBuilder:
     def basic_chatbot_build_graph(self):
         """
         Builds a basic chatbot graph using LangGraph.
-        This method initializes a chatbot node using the `BasicChatbotNode` class 
-        and integrates it into the graph. The chatbot node is set as both the 
-        entry and exit point of the graph.
+
         """
 
         self.basic_chatbot_node=BasicChatbotNode(self.llm)
